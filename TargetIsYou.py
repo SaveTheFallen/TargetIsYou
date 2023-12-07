@@ -25,8 +25,8 @@ class ButtonMaster(simpleGE.SuperSprite):
 class Game(simpleGE.Scene):
     def __init__(self):
         super().__init__()
-        self.DEBUG = True
-        self.mode = "GreenMode"
+        self.DEBUG = False
+        self.mode = "RedMode"
         self.gamestatePause = "Active"
         self.bullets = []
         if self.mode == "RedMode" or self.mode == "HardMode":
